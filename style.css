@@ -1,0 +1,32 @@
+body{
+    background-color:#b6b0f5 ;
+}
+
+h1{
+color: rgb(38,0,255);
+background-color: blanchedalmond;
+}
+
+#color_btn{
+    background-color: palegreen;
+    color: green;
+    border-radius: 10px;
+}
+
+#show_sketch{
+    float: right;
+}
+
+canvas{
+    border:5px solid whitesmoke;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 50px;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes examples{
+    from {box-shadow: 1px 1px 38px darkred;}
+    to {box-shadow: 1px 1px 38px white;}
+}
